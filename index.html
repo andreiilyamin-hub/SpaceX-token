@@ -1,18 +1,125 @@
-<!DOCTYPE html>
-<html lang="ru">
+<!doctype html>
+<html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>SPX SpaceXCoin</title>
-<style>
-body{background:#050816;color:white;font-family:Arial;padding:40px;text-align:center}
-h1{font-size:48px} .btn{padding:12px 24px;background:#1e90ff;color:white;text-decoration:none;border-radius:8px}
-</style>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>SPX SpaceXCoin | To the Moon and Beyond</title>
+  <meta name="description" content="SPX SpaceXCoin is a community-driven meme token built for launch, growth and the journey to the moon." />
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-<h1>SPX SpaceXCoin</h1>
-<p>Contract: 0x33a2345ac3a2e1bba1ec982542a24a9cd45632c0</p>
-<p>Community driven meme token.</p>
-<a class="btn" href="#">Buy SPX</a>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="SPX home">
+      <span class="brand-mark">🚀</span>
+      <span class="brand-text">SPX</span>
+    </a>
+    <button class="menu-btn" id="menuBtn" aria-label="Open menu">☰</button>
+    <nav class="nav" id="nav">
+      <a href="#about">About</a>
+      <a href="#tokenomics">Tokenomics</a>
+      <a href="#roadmap">Roadmap</a>
+      <a href="#buy">How to Buy</a>
+      <a href="#faq">FAQ</a>
+      <a class="nav-cta" href="#buy">Buy SPX</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero section">
+      <div class="hero-content">
+        <p class="eyebrow">The future is space</p>
+        <h1>SPX <span>SpaceXCoin</span></h1>
+        <p class="hero-text">A community-driven meme token built for the next launch. Simple, bold and ready for the moon mission.</p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#buy">Buy on PancakeSwap</a>
+          <a class="btn secondary" href="#tokenomics">View Tokenomics</a>
+        </div>
+        <div class="contract-card">
+          <span>Contract</span>
+          <code id="contract">0x33a2345ac3a2e1bba1ec982542a24a9cd45632c0</code>
+          <button id="copyBtn">Copy</button>
+        </div>
+      </div>
+      <div class="hero-visual" aria-label="SPX rocket visual">
+        <div class="planet"></div>
+        <div class="orbit"></div>
+        <div class="rocket">🚀</div>
+      </div>
+    </section>
+
+    <section id="about" class="section grid two">
+      <div>
+        <p class="eyebrow">About SPX</p>
+        <h2>Community token with a space mission</h2>
+        <p>SPX is designed as a meme coin brand with clean visual identity, simple onboarding and a clear growth roadmap: launch, community, listings and expansion.</p>
+      </div>
+      <div class="glass-card">
+        <h3>Mission</h3>
+        <p>Build a strong community, create viral content, grow liquidity and prepare the project for tracking platforms and broader listings.</p>
+      </div>
+    </section>
+
+    <section id="tokenomics" class="section">
+      <p class="eyebrow">Tokenomics</p>
+      <h2>Simple distribution</h2>
+      <div class="token-grid">
+        <div class="token-item"><strong>50%</strong><span>Liquidity</span></div>
+        <div class="token-item"><strong>20%</strong><span>Marketing</span></div>
+        <div class="token-item"><strong>15%</strong><span>Development</span></div>
+        <div class="token-item"><strong>10%</strong><span>Rewards</span></div>
+        <div class="token-item"><strong>5%</strong><span>Team</span></div>
+      </div>
+    </section>
+
+    <section id="roadmap" class="section">
+      <p class="eyebrow">Roadmap</p>
+      <h2>Launch path</h2>
+      <div class="timeline">
+        <div class="step"><span>01</span><h3>Launch</h3><p>Token deploy, liquidity pool, first holders, first community posts.</p></div>
+        <div class="step"><span>02</span><h3>Growth</h3><p>Telegram, X/Twitter, memes, website, first marketing push.</p></div>
+        <div class="step"><span>03</span><h3>Tracking</h3><p>Prepare applications for CoinGecko, CoinMarketCap and DEX trackers.</p></div>
+        <div class="step"><span>04</span><h3>Expansion</h3><p>Influencer campaigns, partnerships and bigger exchange targets.</p></div>
+      </div>
+    </section>
+
+    <section id="buy" class="section grid two">
+      <div>
+        <p class="eyebrow">How to buy</p>
+        <h2>Buy SPX in four steps</h2>
+      </div>
+      <ol class="buy-list">
+        <li><strong>Get BNB</strong><span>Buy BNB on Binance or another exchange.</span></li>
+        <li><strong>Send to wallet</strong><span>Transfer BNB to MetaMask or Trust Wallet.</span></li>
+        <li><strong>Open PancakeSwap</strong><span>Connect wallet and paste the SPX contract address.</span></li>
+        <li><strong>Swap BNB for SPX</strong><span>Confirm swap and join the mission.</span></li>
+      </ol>
+    </section>
+
+    <section class="section preview-section">
+      <p class="eyebrow">Brand preview</p>
+      <h2>Logo, icon and banner concept</h2>
+      <img src="assets/spx-brand-preview.png" alt="SPX SpaceXCoin brand concept with logo, icon and website mockup" />
+    </section>
+
+    <section id="faq" class="section faq">
+      <p class="eyebrow">FAQ</p>
+      <h2>Common questions</h2>
+      <details><summary>What is SPX?</summary><p>SPX is a space-themed community meme token focused on growth, memes and community marketing.</p></details>
+      <details><summary>Where can I buy it?</summary><p>After liquidity is active, SPX can be bought through PancakeSwap using the contract address.</p></details>
+      <details><summary>Is this financial advice?</summary><p>No. Crypto is high risk. Always do your own research before buying any token.</p></details>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-links">
+      <a href="#">Telegram</a>
+      <a href="#">X / Twitter</a>
+      <a href="#">PancakeSwap</a>
+      <a href="#">Chart</a>
+    </div>
+    <p>© 2026 SPX SpaceXCoin. To the Moon and Beyond.</p>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
